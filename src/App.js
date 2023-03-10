@@ -5,15 +5,8 @@ import SearchIcon from "./search.svg";
 
 // 4c7902e0
 
-const API_URL = "http://www.omdbapi.com?apikey=4c7902e0";
-const movie1 = {
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BYjFhN2RjZTctMzA2Ni00NzE2LWJmYjMtNDAyYTllOTkyMmY3XkEyXkFqcGdeQXVyNTA0OTU0OTQ@._V1_SX300.jpg",
-  Title: "Italian Spiderman",
-  Type: "movie",
-  Year: "2007",
-  imdbID: "tt2705436",
-};
+const API_URL = "https://www.omdbapi.com?apikey=4c7902e0";
+
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
